@@ -1,0 +1,42 @@
+
+name: lejet
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  liquid_progress_indicator: ^0.4.0
+  flutter_local_notifications: ^18.0.1
+  timezone: ^0.10.0
+
+  cupertino_icons: ^1.0.6
+  auto_route: ^7.2.0
+
+  # Add these dependencies for BLoC
+  flutter_bloc: ^8.1.1
+  bloc: ^8.1.1
+  intl: ^0.20.0
+  http: ^1.2.2
+
+  # Add any other dependencies you might need
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  auto_route_generator: ^7.1.1
+  build_runner: ^2.3.3 # Required for code generation
+
+flutter:
+  uses-material-design: true
+
+  # Ensure you have the correct path for your assets folder
+  assets:
+    - assets/images/
+
